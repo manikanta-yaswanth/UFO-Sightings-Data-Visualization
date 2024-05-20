@@ -46,14 +46,16 @@ In this Visualization, we did analysis of UFO sighting reports by mapping the la
 
 
 2.	What are the trends in UFO sighting reports in the United States, Canada and how do the frequencies of these reports vary on a yearly, monthly, and daily basis?
+   
+![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/68c908cd-03ef-4ae8-85da-aa2794cbf186)
 
- 
 Yearly Trends: The line chart shows the number of UFO sighting reports in the U.S. from the early 2000s through approximately 2015. There is a general upward trend in reports from 2000 until around 2012, where it peaks. After 2012, there is a notable decline in the number of reports. The peak in 2012 might have been influenced by popular culture or increased public interest in UFOs around that time. The subsequent decline could be due to various factors including changes in public interest or the availability of new platforms for reporting.
+![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/7666284c-1c91-4af0-8806-cc6f79263a6b)
 
  
 Monthly Distribution: The second visualization breaks down UFO sightings by month. The line chart indicates that sightings increase significantly in January and then generally decrease through the subsequent months, with minor peaks mid-year. The pie chart reveals that January has the highest percentage of reports, suggesting a possible seasonal pattern where sights are more frequent in winter months.
 
- 
+![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/87c1f41c-1b34-4a72-83ad-a85f40cd63ad)
 
 
 Daily Distribution: The daily distribution of UFO sightings shows considerable variability. There are specific spikes on certain days of the month, particularly noticeable around the 1st, 15th, and towards the end of the month. This could indicate reporting biases or patterns in when events are observed or recorded. The pie chart for daily distribution does not show a consistent trend, suggesting that daily sightings are relatively spread out throughout the month with no single day overwhelmingly dominating.
@@ -62,26 +64,21 @@ There is a clear peak and decline in the frequency of reports over the years exa
 
 3.	What are the distribution patterns of UFO sightings in terms of the reported shapes, and is there a predominance of specific shapes in the reported sightings across different regions of the United States?
 
-
+![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/071e397e-0a87-46e8-8abd-35da2cef7466)
  
-
-
 The stacked area chart we used shows the number of UFO sightings reports by shape each year, spanning several decades. There is a noticeable increase in reports starting from the late 20th century, peaking in the 2000s. The variety of shapes reported has also diversified over the years. Notable among them are shapes labeled as "Light," "Circle," and "Triangle," which show significant increases over time, suggesting that these shapes are more commonly reported than others. The overall upward trend in sightings might be influenced by increasing public interest, more accessible reporting channels, or growing awareness of aerial phenomena.
 
 
-
-
-
-
 4.	How does the reported duration of UFO sightings vary across different incidents, and are there identifiable patterns in the lengths of these events that could provide insights into UFO activity?
- 
+ ![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/bf910f29-c8e5-4794-8f70-76b947a56a75)
 
 For these visualizations, I used a geographical map and a bar chart for UFO sighting durations, I noticed intriguing patterns in the distribution and duration of UFO sightings across North America. The map shows that sightings are more frequent in densely populated areas like the West Coast, Northeast, and Great Lakes region, which suggests that urban environments with larger populations may see more reports due to the greater number of potential witnesses. The bar chart reveals that most UFO sightings are brief, typically lasting less than 5 minutes, with the most common durations being 1 and 2 minutes. This prevalence of short encounters might indicate that the phenomena observed are generally transient, possibly characterized by quick appearances or movements. Longer sightings over 30 minutes are rare, which could imply that extended observations of UFOs are uncommon, perhaps due to the fleeting nature of the events or biases in reporting shorter, more memorable incidents. My analysis highlights the importance of considering both the geographical and temporal aspects of UFO sightings to better understand the underlying factors influencing these reports.
 
 
 5.	 How have patterns of UFO sightings evolved geographically and temporally over recent years, and is there evidence of concentrated activity in specific regions that correlates with changes over time?
 
-  
+ ![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/c29fd006-0ea5-467d-b25b-95749ff705fe)
+![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/46b982fd-bdc7-48db-b246-e831876eca5d) 
 
  
 
@@ -89,13 +86,17 @@ With the animated charts, I've noticed that UFO sightings concentration varies t
 
 6.	What are the global patterns in the distribution of airports, and how do geographic factors influence the spread of airports around the world?
 
- 
+ ![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/043368fe-0ead-4ade-8860-36d04a595cdf)
+![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/e516d52a-f37f-4f20-81f9-e20342ed3635)
  
 With the use of  Maps, we located the Airport coordinates all over the world and for USA and Canada to link the data with UFO sighting to find meaningful insights and patterns.
 
 7.	What is the frequency of UFO sighting reports within various distance ranges from the nearest airport, and do sightings tend to occur more often closer to or farther from these airport locations?
  
-
+![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/f6881e79-ca57-4ff6-88d7-4bcb822024d4)
+![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/192e7446-4ec3-4956-88bc-7f1da0c79232)
+![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/f8dc5ad5-9374-4f9a-a6c4-c8590731e31b)
+![image](https://github.com/manikanta-yaswanth/UFO-Sightings-Data-Visualization/assets/161633030/743a2402-1875-4246-94da-db80fb9a0946)
  
  
  
