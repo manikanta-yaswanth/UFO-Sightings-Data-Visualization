@@ -1,0 +1,30 @@
+install.packages("geosphere")
+install.packages("dplyr")
+
+# Load necessary libraries
+library(geosphere)
+library(dplyr)
+
+# Assuming you've read your UFO sightings and airports data into two dataframes: ufos and airports
+ufos <- read.csv("C:/Users/Mani Kanta Yaswanth/OneDrive - University of South Florida/Desktop/DVFinal/UFOs_coord.csv")
+airports <- read.csv("C:/Users/Mani Kanta Yaswanth/OneDrive - University of South Florida/Desktop/DVFinal/airports_extended.csv")
+
+# Function to find the nearest airport for each UFO sighting
+find_nearest_airport <- function(ufo_lat, ufo_lon, airports_df) {
+  distances <- distm(matrix(c(ufo_lon, ufo_lat), ncol = 2),
+                     airports_df[, c("Longitude", "Latitude")],
+                     fun = distHaversine)
+  return(min(distances))
+}
+
+# Apply the function to the UFOs dataframe to get the distance to the nearest airport
+ufos$nearest_airport_distance <- apply(ufos[, c("longitude", "latitude")], 1, function(x) {
+  find_nearest_airport(x[2], x[1], airports)
+})
+
+# View the updated UFO dataframe with distances
+print(head(ufos))
+
+options(scipen = 999)
+print(ufos$nearest_airport_distance)
+
